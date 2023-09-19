@@ -1,5 +1,3 @@
-PRAGMA journal_mode = WAL
-PRAGMA journal_mode = WAL
 
         UPDATE app
         SET description = 'Фоторедактор',
@@ -15,8 +13,6 @@ PRAGMA journal_mode = WAL
             source = 'appstorrent.ru'
         WHERE name = 'Affinity Photo'
     
-PRAGMA journal_mode = WAL
-PRAGMA journal_mode = WAL
 
         UPDATE app
         SET description = 'Графический редак'/*+6 bytes*/,
@@ -32,8 +28,6 @@ PRAGMA journal_mode = WAL
             source = 'appstorrent.ru'
         WHERE name = 'Affinity Designer'
     
-PRAGMA journal_mode = WAL
-PRAGMA journal_mode = WAL
 
         UPDATE app
         SET description = 'Графика и дизайн',
@@ -49,8 +43,6 @@ PRAGMA journal_mode = WAL
             source = 'appstorrent.ru'
         WHERE name = 'Affinity Publisher'
     
-PRAGMA journal_mode = WAL
-PRAGMA journal_mode = WAL
 
         UPDATE app
         SET description = 'Сборник ключей',
@@ -66,8 +58,6 @@ PRAGMA journal_mode = WAL
             source = 'appstorrent.ru'
         WHERE name = 'KCNcrew Pack'
     
-PRAGMA journal_mode = WAL
-PRAGMA journal_mode = WAL
 
         UPDATE app
         SET description = 'Редактор кода',
@@ -83,9 +73,6 @@ PRAGMA journal_mode = WAL
             source = 'appstorrent.ru'
         WHERE name = 'UltraEdit'
     
-PRAGMA journal_mode = WAL
-PRAGMA journal_mode = WAL
-PRAGMA journal_mode = WAL
 
         INSERT INTO app (name, version, description, description_local, icon, image, detail_url, file_size, category, published_date, architecture, source)
         VALUES ('Dude, Where Is My Beer?', '5.2.1', '
@@ -94,9 +81,6 @@ PRAGMA journal_mode = WAL
 游戏冒险
 ', 'https://appstorrent.ru/uploads/p'/*+24 bytes*/, 'https://appstorrent.ru/uploads/p'/*+26 bytes*/, 'https://appstorrent.ru/2580-dude'/*+22 bytes*/, '826 MB', 2.0, '2023-09-19', 'x86 (64-bit)', 'appstorrent.ru')
     
-PRAGMA journal_mode = WAL
-PRAGMA journal_mode = WAL
-PRAGMA journal_mode = WAL
 
       UPDATE app
       SET
@@ -115,15 +99,13 @@ PRAGMA journal_mode = WAL
           published_date = '2023/09/19',
           releaseDate = '',
           note = '',
-          views = '21506',
+          views = '21626',
           link = NULL,
           detail_version = '1.8 (09-15-23)',
           banner = '["https://appstorrent.ru/uploads'/*+321 bytes*/
       WHERE
           id = 245.0
       
-PRAGMA journal_mode = WAL
-PRAGMA journal_mode = WAL
 
     UPDATE tabs
     SET
@@ -134,7 +116,6 @@ PRAGMA journal_mode = WAL
     WHERE
       app_id = 245.0 AND title = 'Описание'
   
-PRAGMA journal_mode = WAL
 
     UPDATE download_info
     SET
@@ -148,12 +129,10 @@ PRAGMA journal_mode = WAL
           INSERT OR REPLACE INTO download_links (app_id, title, href, title_local, version)
           VALUES (245.0, 'Прямая ссылка на с'/*+18 bytes*/, 'https://vk.com/s/v1/doc/082ydP1w'/*+43 bytes*/, '直接链接下载安装程序', '1.8 (09-15-23)')
       
-PRAGMA journal_mode = WAL
 
     INSERT INTO older_versions (app_id, title, url, title_local)
     VALUES (245.0, 'KCNcrew Pack 07-15-23', 'https://vk.com/s/v1/doc/6CrAnjpP'/*+43 bytes*/, 'KCNCREW PACK 07-15-23')
 
-PRAGMA journal_mode = WAL
 
       UPDATE app
       SET
@@ -172,15 +151,13 @@ PRAGMA journal_mode = WAL
           published_date = '2023/09/19',
           releaseDate = '',
           note = '',
-          views = '143305',
+          views = '143476',
           link = 'http://hidereferrer.net/?https:/'/*+32 bytes*/,
           detail_version = '2.2.0',
           banner = '["https://appstorrent.ru/uploads'/*+229 bytes*/
       WHERE
           id = 292.0
       
-PRAGMA journal_mode = WAL
-PRAGMA journal_mode = WAL
 
     UPDATE tabs
     SET
@@ -193,7 +170,6 @@ PRAGMA journal_mode = WAL
     WHERE
       app_id = 292.0 AND title = 'Описание'
   
-PRAGMA journal_mode = WAL
 
     UPDATE download_info
     SET
@@ -206,8 +182,6 @@ PRAGMA journal_mode = WAL
           INSERT OR REPLACE INTO download_links (app_id, title, href, title_local, version)
           VALUES (292.0, 'Прямая ссылка на с'/*+18 bytes*/, 'https://vk.com/s/v1/doc/RP4I0oON'/*+43 bytes*/, '直接链接下载安装程序', '2.2.0')
       
-PRAGMA journal_mode = WAL
-PRAGMA journal_mode = WAL
 
       UPDATE app
       SET
@@ -226,15 +200,13 @@ PRAGMA journal_mode = WAL
           published_date = '2023/09/19',
           releaseDate = '',
           note = '',
-          views = '111524',
+          views = '111649',
           link = 'http://hidereferrer.net/?https:/'/*+35 bytes*/,
           detail_version = '2.2.0',
           banner = '["https://appstorrent.ru/uploads'/*+229 bytes*/
       WHERE
           id = 293.0
       
-PRAGMA journal_mode = WAL
-PRAGMA journal_mode = WAL
 
     UPDATE tabs
     SET
@@ -263,7 +235,6 @@ PRAGMA journal_mode = WAL
     WHERE
       app_id = 293.0 AND title = 'Что нового'
   
-PRAGMA journal_mode = WAL
 
     UPDATE download_info
     SET
@@ -276,8 +247,6 @@ PRAGMA journal_mode = WAL
           INSERT OR REPLACE INTO download_links (app_id, title, href, title_local, version)
           VALUES (293.0, 'Прямая ссылка на с'/*+18 bytes*/, 'https://vk.com/s/v1/doc/tG4Ls96Z'/*+43 bytes*/, '直接链接下载安装程序', '2.2.0')
       
-PRAGMA journal_mode = WAL
-PRAGMA journal_mode = WAL
 
       UPDATE app
       SET
@@ -296,15 +265,13 @@ PRAGMA journal_mode = WAL
           published_date = '2023/09/19',
           releaseDate = '',
           note = '',
-          views = '55475',
+          views = '55508',
           link = 'http://hidereferrer.net/?https:/'/*+36 bytes*/,
           detail_version = '2.2.0',
           banner = '["https://appstorrent.ru/uploads'/*+229 bytes*/
       WHERE
           id = 294.0
       
-PRAGMA journal_mode = WAL
-PRAGMA journal_mode = WAL
 
     UPDATE tabs
     SET
@@ -315,7 +282,6 @@ PRAGMA journal_mode = WAL
     WHERE
       app_id = 294.0 AND title = 'Описание'
   
-PRAGMA journal_mode = WAL
 
     UPDATE download_info
     SET
@@ -328,8 +294,6 @@ PRAGMA journal_mode = WAL
           INSERT OR REPLACE INTO download_links (app_id, title, href, title_local, version)
           VALUES (294.0, 'Прямая ссылка на с'/*+18 bytes*/, 'https://vk.com/s/v1/doc/T7LGA3XU'/*+43 bytes*/, '直接链接下载安装程序', '2.2.0')
       
-PRAGMA journal_mode = WAL
-PRAGMA journal_mode = WAL
 
       UPDATE app
       SET
@@ -348,15 +312,13 @@ PRAGMA journal_mode = WAL
           published_date = '2023/09/19',
           releaseDate = '',
           note = '',
-          views = '15329',
+          views = '15408',
           link = 'http://hidereferrer.net/?https:/'/*+19 bytes*/,
           detail_version = '22.0.0.19',
           banner = '["https://appstorrent.ru/uploads'/*+325 bytes*/
       WHERE
           id = 458.0
       
-PRAGMA journal_mode = WAL
-PRAGMA journal_mode = WAL
 
     UPDATE tabs
     SET
@@ -367,7 +329,6 @@ PRAGMA journal_mode = WAL
     WHERE
       app_id = 458.0 AND title = 'Описание'
   
-PRAGMA journal_mode = WAL
 
     UPDATE download_info
     SET
@@ -380,8 +341,6 @@ PRAGMA journal_mode = WAL
           INSERT OR REPLACE INTO download_links (app_id, title, href, title_local, version)
           VALUES (458.0, 'Прямая ссылка на с'/*+18 bytes*/, 'https://vk.com/s/v1/doc/UfXyC1ie'/*+43 bytes*/, '直接链接下载安装程序', '22.0.0.19')
       
-PRAGMA journal_mode = WAL
-PRAGMA journal_mode = WAL
 
       UPDATE app
       SET
@@ -404,7 +363,7 @@ PRAGMA journal_mode = WAL
           published_date = '2023/09/19',
           releaseDate = '',
           note = '',
-          views = '662',
+          views = '849',
           link = 'http://hidereferrer.net/?https:/'/*+27 bytes*/,
           detail_version = '5.2.1',
           banner = '["https://appstorrent.ru/uploads'/*+499 bytes*/
@@ -439,7 +398,6 @@ PRAGMA journal_mode = WAL
             INSERT INTO languages (app_id, name, link, type)
             VALUES (1766.0, 'Музыкальное сопро'/*+16 bytes*/, 'https://appstorrent.ru/info-lang'/*+155 bytes*/, 2.0)
         
-PRAGMA journal_mode = WAL
 
     INSERT INTO categories (app_id, content, href, content_local)
     VALUES (1766.0, 'Игры', 'https://appstorrent.ru/games/', NULL)
@@ -448,7 +406,6 @@ PRAGMA journal_mode = WAL
     INSERT INTO categories (app_id, content, href, content_local)
     VALUES (1766.0, 'Приключения', 'https://appstorrent.ru/games/adv'/*+8 bytes*/, NULL)
   
-PRAGMA journal_mode = WAL
 
       INSERT INTO tabs (app_id, title, content, content_local)
       VALUES (1766.0, 'Описание', '
@@ -461,7 +418,6 @@ PRAGMA journal_mode = WAL
 <p>ОС: Mac OSX 10.7<br>Про'/*+96 bytes*/, '
 <p>操作系统：Mac OSX 10.7<'/*+66 bytes*/)
   
-PRAGMA journal_mode = WAL
 
     INSERT OR REPLACE INTO download_info (app_id, content, content_local)
     VALUES (1766.0, '<p>Распакуйте архи'/*+294 bytes*/, '<p>解压缩存档并按照标准'/*+120 bytes*/)
@@ -470,4 +426,3 @@ PRAGMA journal_mode = WAL
           INSERT OR REPLACE INTO download_links (app_id, title, href, title_local, version)
           VALUES (1766.0, 'Скачать с MediaFire', 'https://www.mediafire.com/file/v'/*+51 bytes*/, '下载 MediaFire', '5.2.1')
       
-PRAGMA journal_mode = WAL
