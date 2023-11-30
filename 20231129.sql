@@ -1585,3 +1585,63 @@ Final Cut Pro、动作
       INSERT OR REPLACE INTO download_links (app_id, title, href, title_local, version)
       VALUES (2518.0, 'Прямая ссылка на скачивание', 'https://vk.com/doc781359414_673127037', '直接链接下载安装程序', '')
   ;
+
+      UPDATE app
+      SET description = 'Браузер документации API',
+          description_local = 'API文档浏览器',
+          icon = 'https://appstorrent.ru/uploads/posts/2020-08/1598759291_dash.png',
+          image = NULL,
+          detail_url = 'https://appstorrent.ru/196-dash.html',
+          file_size = '21 MB',
+          version = '7.2.0',
+          category = 1.0,
+          published_date = '2023-11-29',
+          architecture = 'ARM, x86 (64-bit)',
+          source = 'appstorrent.ru'
+      WHERE name = 'Dash'
+  ;
+
+      UPDATE app
+      SET description = 'Запись экрана',
+          description_local = '屏幕录制',
+          icon = 'https://appstorrent.ru/uploads/posts/2022-12/1670940518_icon.webp',
+          image = NULL,
+          detail_url = 'https://appstorrent.ru/428-camtasia.html',
+          file_size = '370 MB',
+          version = '2023.3.5',
+          category = 1.0,
+          published_date = '2023-11-29',
+          architecture = 'ARM, x86 (64-bit)',
+          source = 'appstorrent.ru'
+      WHERE name = 'Camtasia 2023'
+  ;
+
+      UPDATE app
+      SET description = 'Менеджер контактов',
+          description_local = '联络经理',
+          icon = 'https://appstorrent.ru/uploads/posts/2022-07/1657635042_icon.png',
+          image = NULL,
+          detail_url = 'https://appstorrent.ru/1458-cisdem-contactsmate.html',
+          file_size = '9 MB',
+          version = '6.7.0',
+          category = 1.0,
+          published_date = '2023-11-29',
+          architecture = 'ARM, x86 (64-bit)',
+          source = 'appstorrent.ru'
+      WHERE name = 'Cisdem ContactsMate'
+  ;
+
+      UPDATE app
+      SET description = 'Видеоплеер',
+          description_local = '视频播放器',
+          icon = 'https://appstorrent.ru/uploads/posts/2022-12/1672115946_icon.webp',
+          image = NULL,
+          detail_url = 'https://appstorrent.ru/839-infuse.html',
+          file_size = '73 MB',
+          version = '7.6.4 [MAS]',
+          category = 1.0,
+          published_date = '2023-11-29',
+          architecture = 'ARM, x86 (64-bit)',
+          source = 'appstorrent.ru'
+      WHERE name = 'Infuse 7 PRO'
+  ;
